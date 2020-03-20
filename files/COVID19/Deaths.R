@@ -21,12 +21,12 @@ dta_raw <- read_csv(url, col_types = cols()) %>% select(-Lat, -Long)
 selection <- c("Italy", 
                #"Iran", 
                "Spain", 
-               #"South Korea", 
+               #"Korea, South", 
                "France", 
                "Germany", 
                "US", 
                "Japan", 
-               #"Mainland China", 
+               #"China", 
                "United Kingdom")
 
 dta <- dta_raw %>%
